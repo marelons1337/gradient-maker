@@ -16,6 +16,7 @@ function setRandomColor() {
     color1.value = generateRandomColor();
     color2.value = generateRandomColor();
     body.style.background = "linear-gradient(to right, " + color1.value + ", " + color2.value + ")";
+    setGradient();
 };
 
 
