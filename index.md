@@ -10,8 +10,10 @@
     <h1>Background <br> Generator</h1>
     <input type="color" name="color1" id="color1">
     <input type="color" name="color2" id="color2">
+    <br>
+    <button>Random!</button>
     <h2>Current css Background</h2>
-    <h3 id="current-background"></h3>
+    <h3 id="current-background">background: linear-gradient(to right, pink, purple);</h3>
     <script src="script.js"></script>
 </body>
 </html>
