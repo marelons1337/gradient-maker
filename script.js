@@ -1,3 +1,8 @@
+var _ = require('lodash');
+
+var array =[1,2,3,4,5];
+console.log('lodash: ',_.without(array, 3));
+
 var color1 = document.getElementById("color1");
 var color2 = document.getElementById("color2");
 var result = document.getElementById("current-background");
